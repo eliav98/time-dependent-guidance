@@ -40,6 +40,10 @@ def _normalize_prompts(prompts: PromptSpec) -> Dict[str, str]:
 
 
 def _stable_hash(row: Dict[str, Any], ignore: Iterable[str] = ("prompt_text", "experiment_group")) -> str:
+    if row['kind'] == 'baseline':
+        ignore += ('w_min', 'w_max')
+    if row['kind'] in ['constant', 'average_constant', 'baseline']:
+        ignore += ('direction',)
     clean = {k: row[k] for k in row.keys() if k not in set(ignore)}
     payload = json.dumps(clean, sort_keys=True, default=str).encode("utf-8")
     return hashlib.md5(payload).hexdigest()[:12]
@@ -135,7 +139,8 @@ def build_experiment_grid(spec: ExperimentSpec) -> pd.DataFrame:
 
 def write_experiment_csv(df: pd.DataFrame, path: str) -> str:
     """Write the plan to CSV and return the path."""
-    df.to_csv(path, index=False)
+    df_deduplicated = df.drop_duplicates(subset=["experiment_id"], keep="first")
+    df_deduplicated.to_csv(path, index=False)
     return path
 
 
