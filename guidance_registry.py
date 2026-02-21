@@ -1,3 +1,4 @@
+# guidance_registry.py
 import math
 from dataclasses import dataclass, field
 from typing import Dict, Any, Literal
@@ -19,6 +20,10 @@ class Shapes:
         return (math.exp(alpha * p) - 1) / (math.exp(alpha) - 1)
 
     @staticmethod
+    def logarithmic(p, alpha=3.0, **kw):
+        return math.log(1 + (math.exp(alpha) - 1) * p) / alpha
+
+    @staticmethod
     def sigmoid(p, k=12, p0=0.5, **kw):
         return 1 / (1 + math.exp(-k * (p - p0)))
 
@@ -35,16 +40,24 @@ class Shapes:
     def constant(p, **kw):
         return 1.0
 
+    @staticmethod
+    def parabolic(p, **kw):
+        # Normalized Parabola: 4 * p * (1 - p)
+        # This creates a symmetric arch 0 -> 1 -> 0
+        return 4 * p * (1 - p)
+
 
 # --- 2. CONFIGURATION ---
 # Define how 'direction' should be interpreted for each shape
 SCHEDULER_PROPERTIES = {
-    "linear": {"type": "monotonic"},
-    "cosine": {"type": "monotonic"},
+    "linear":      {"type": "monotonic"},
+    "cosine":      {"type": "monotonic"},
     "exponential": {"type": "monotonic"},
-    "sigmoid": {"type": "monotonic"},
-    "triangular": {"type": "non_monotonic"},  # direction='decreasing' will trigger INVERSION (Valley)
-    "constant": {"type": "static"}
+    "logarithmic": {"type": "monotonic"},
+    "sigmoid":     {"type": "monotonic"},
+    "triangular":  {"type": "non_monotonic"},
+    "parabolic":   {"type": "non_monotonic"}, # New!
+    "constant":    {"type": "static"}
 }
 
 
@@ -71,12 +84,10 @@ class GuidanceScheduler:
 
         if category == "static":
             y = 1.0
-
         elif category == "monotonic":
             # Direction affects TIME (Left-to-Right vs Right-to-Left)
             eff_t = t if self.direction == "increasing" else (1.0 - t)
             y = self._func(eff_t, **self.params)
-
         elif category == "non_monotonic":
             # Direction affects AMPLITUDE (Mountain vs Valley)
             raw_y = self._func(t, **self.params)
