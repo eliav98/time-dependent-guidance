@@ -57,7 +57,9 @@ SCHEDULER_PROPERTIES = {
     "sigmoid":     {"type": "monotonic"},
     "triangular":  {"type": "non_monotonic"},
     "parabolic":   {"type": "non_monotonic"}, # New!
-    "constant":    {"type": "static"}
+    "constant":    {"type": "static"},
+    "baseline": {"type": "static"},
+    "average_constant": {"type": "static"}
 }
 
 
@@ -75,6 +77,13 @@ class GuidanceScheduler:
         self._props = SCHEDULER_PROPERTIES.get(self.kind, {"type": "monotonic"})
 
     def __call__(self, step: int, total_steps: int) -> float:
+        if self.kind == 'baseline':
+            return 7.5
+
+        if self.kind == 'average_constant':
+            return (self.w_min + self.w_max) / 2
+
+
         # Normalize Progress t (0.0 to 1.0)
         t = step / max(1, total_steps - 1)
 
