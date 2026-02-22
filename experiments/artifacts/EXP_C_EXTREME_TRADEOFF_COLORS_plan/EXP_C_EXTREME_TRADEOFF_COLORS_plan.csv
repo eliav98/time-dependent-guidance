@@ -1,0 +1,199 @@
+experiment_group,experiment_id,kind,direction,w_min,w_max,num_steps,seed,prompt_id,prompt_text,params,notes,bucket,worker_id
+EXP_C_EXTREME_TRADEOFF_COLORS,4c6be3aad94e,baseline,increasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,34391b7b795b,baseline,increasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,5ca411ca4ab4,baseline,increasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,d43f647f484e,baseline,increasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,44436a01878e,baseline,increasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,6d8b77b93ddb,baseline,increasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,7714c527f05e,average_constant,increasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,7bae4a15a819,average_constant,increasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,d7dae55fc5bf,average_constant,increasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,67f41f10d440,average_constant,increasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,684e991ee6de,average_constant,increasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,7f74505da48d,average_constant,increasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,ec5c6c4218f0,average_constant,increasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,def5abd985d2,average_constant,increasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,ff96dabf4865,average_constant,increasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,ae929466b597,average_constant,increasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,289500d33b14,average_constant,increasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,9d5b8c1c8c82,average_constant,increasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,deb19ec09fc3,average_constant,increasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,675178c56110,average_constant,increasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,f5e2833b5062,average_constant,increasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,4dc746abc9e3,average_constant,increasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,c58b7379515d,average_constant,increasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,a73ea73fb67d,average_constant,increasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,3b7e4e47b038,average_constant,increasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,c9b3580c87e3,average_constant,increasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,dec65bb2ff8d,average_constant,increasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,e8470ed365ae,average_constant,increasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,e0e0f7134568,average_constant,increasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,f031e2716256,average_constant,increasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,70bcc38c0935,constant,increasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,b97fd49f4a88,constant,increasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,5f695d9d8514,constant,increasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,4f2908b2810a,constant,increasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,902e94ca7bac,constant,increasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,41a5fd6dfbbf,constant,increasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,49e957bf286a,constant,increasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,269c7a91eac9,constant,increasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,0a3f68dda81b,constant,increasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,73dcb7a96d79,constant,increasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,0d3eaeab4013,constant,increasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,ce533f86679f,constant,increasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,05fa7bf5aa1b,constant,increasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,76a0264d1179,constant,increasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,97073a65dbfd,constant,increasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,5210d0b7d70d,constant,increasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,a9cbbd580316,constant,increasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,04556bba50cc,constant,increasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,e617e0a1a296,constant,increasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,097bb5f400e2,constant,increasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,0d067e533f1b,constant,increasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,42df62c50ee5,constant,increasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,a83e598c50a2,constant,increasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,e01f910f92e3,constant,increasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,f12b274782e0,linear,increasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,2898e9b64f18,linear,increasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,f3b5fc291b8a,linear,increasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,528f6dcc5dce,linear,increasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,9e28d8996fb3,linear,increasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,c21573790cf5,linear,increasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,8a5323864950,linear,increasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,b513b8bb310e,linear,increasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,248692e52e1a,linear,increasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,a9e43a99b4f4,linear,increasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,184ee0593852,linear,increasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,a7795602e03c,linear,increasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,4a4d8217514d,linear,increasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,409bb4838e2f,linear,increasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,cd2e421e8cd3,linear,increasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,f88dc09b53eb,linear,increasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,cbc92f790534,linear,increasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,6eec7dc2a17a,linear,increasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,685a92901cd5,linear,increasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,be33887f8da9,linear,increasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,7fcb3a24a8e4,linear,increasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,d0ec791cb091,linear,increasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,d71265fc0712,linear,increasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,1215d3a03262,linear,increasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,9cc3f1b6ad09,linear,decreasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,764d49dfed92,linear,decreasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,d71d3337f20a,linear,decreasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,b4b91766447f,linear,decreasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,7cac184d39e1,linear,decreasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,bf28eec33539,linear,decreasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,09b303d3edbf,linear,decreasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,0ddba23b3a63,linear,decreasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,9f0a5db351ff,linear,decreasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,700263a16673,linear,decreasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,03c3d8c76e75,linear,decreasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,ae4c7f15829c,linear,decreasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,953e2f020325,linear,decreasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,024025a06098,linear,decreasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,644af7539f97,linear,decreasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,8d485146fdb5,linear,decreasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,5c0d0015908d,linear,decreasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,fdc5c1942e3d,linear,decreasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,5cdf35051d6a,linear,decreasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,b822e24cc5b5,linear,decreasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,74e866e5be09,linear,decreasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,e9a8c74ee22c,linear,decreasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,40f0f6c2c85b,linear,decreasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,11dd0f40e538,linear,decreasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,cc60fa2a5084,exponential,increasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,b744ac8413aa,exponential,increasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,fafac2fa44c1,exponential,increasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,b4dce8c2e177,exponential,increasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,c5405aa8b3c4,exponential,increasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,175381963cc6,exponential,increasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,8b23679260be,exponential,increasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,1b68a189eaa8,exponential,increasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,b4abd9f5fa7c,exponential,increasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,4c5b645d38a7,exponential,increasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,008acab558c1,exponential,increasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,762d25568b0b,exponential,increasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,26176e4d10c9,exponential,increasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,01b15f8d5cac,exponential,increasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,ad118fe9c0fb,exponential,increasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,c97130d6d431,exponential,increasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,e39b5fe9f07d,exponential,increasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,797533a228e7,exponential,increasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,3e17480ac707,exponential,increasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,3f2f1ad0b252,exponential,increasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,b4cbf70f4a81,exponential,increasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,a3618ec88cfc,exponential,increasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,3366215a2ec2,exponential,increasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,1726b3904eae,exponential,increasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,a1b5b166e2e6,exponential,decreasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,18f4a4ac6d75,exponential,decreasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,f5bce3096d93,exponential,decreasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,4c8fb5af9114,exponential,decreasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,055e8b3e44d9,exponential,decreasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,e90dae1e550b,exponential,decreasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,10cb5f8711ec,exponential,decreasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,2ed3e1b92913,exponential,decreasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,ebdcbcf5f4ff,exponential,decreasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,9919b7ada6aa,exponential,decreasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,cc335487d080,exponential,decreasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,6e528c081184,exponential,decreasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,e4683ac7fb01,exponential,decreasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,d4885ce50c70,exponential,decreasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,f8ab6a4d1b3e,exponential,decreasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,70fc4ec0b8cd,exponential,decreasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,7f7131fd9c46,exponential,decreasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,6dce41ec94c2,exponential,decreasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,4b33e130c3c1,exponential,decreasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,2f4ba2d05c86,exponential,decreasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,ab3367a41e05,exponential,decreasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,81688a589d0d,exponential,decreasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,b5c3d02bfaef,exponential,decreasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,5963b856d485,exponential,decreasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,96fac8cf61ef,triangular,increasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,910db2b96e09,triangular,increasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,b00faf729248,triangular,increasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,c57e1ddccc8c,triangular,increasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,7f0b44890e02,triangular,increasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,8b3837a6180f,triangular,increasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,512d86231766,triangular,increasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,72e1a5138997,triangular,increasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,f6e38789a09b,triangular,increasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,22122092873b,triangular,increasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,0dd681bef8f0,triangular,increasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,95d4ceff1f76,triangular,increasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,c1d443604da0,triangular,increasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,b9701168e7f7,triangular,increasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,aa7b7bb6bbfc,triangular,increasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,746dcddd6f99,triangular,increasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,da7fe0876032,triangular,increasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,0e776d2ee141,triangular,increasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,4db674353638,triangular,increasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,cfa7d23b1511,triangular,increasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,060af94a22dd,triangular,increasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,b25be8f6c68a,triangular,increasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,38de71dfe117,triangular,increasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,6a55e1aff364,triangular,increasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,59ce907c8e13,triangular,decreasing,1.0,2.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,945ca7527b40,triangular,decreasing,1.0,2.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,7d2c099a2c8f,triangular,decreasing,1.0,2.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,db887a5ff286,triangular,decreasing,1.0,2.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,9c0142e63514,triangular,decreasing,1.0,2.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,e1f6f1e6cedd,triangular,decreasing,1.0,2.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,5dd78685ae42,triangular,decreasing,1.0,12.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,5ef8024c7963,triangular,decreasing,1.0,12.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,096370ba5d5d,triangular,decreasing,1.0,12.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,cbd4c220ddcc,triangular,decreasing,1.0,12.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,12dfe98eb747,triangular,decreasing,1.0,12.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,aa443e2f6fc3,triangular,decreasing,1.0,12.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,d9dfec4467d1,triangular,decreasing,7.0,50.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,cc17db8b27a7,triangular,decreasing,7.0,50.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,a96d6449d34e,triangular,decreasing,7.0,50.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,4ace39569e96,triangular,decreasing,7.0,50.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,fc240162ba89,triangular,decreasing,7.0,50.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,d73ece9bdf12,triangular,decreasing,7.0,50.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,ea7ed857cd77,triangular,decreasing,7.0,100.0,40,42,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,3b7e7ce80bec,triangular,decreasing,7.0,100.0,40,1337,P_MUG_BOOK_COLORS,A solid yellow coffee mug resting on a bright blue book.,{},tradeoff demo,checkable-details,3
+EXP_C_EXTREME_TRADEOFF_COLORS,a65cdbc383e5,triangular,decreasing,7.0,100.0,40,42,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,0
+EXP_C_EXTREME_TRADEOFF_COLORS,308d05784d4e,triangular,decreasing,7.0,100.0,40,1337,P_HAT_JACKET_COLORS,A man wearing a bright purple beanie and a neon orange winter jacket.,{},tradeoff demo,checkable-details,1
+EXP_C_EXTREME_TRADEOFF_COLORS,2b86301213cc,triangular,decreasing,7.0,100.0,40,42,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,2
+EXP_C_EXTREME_TRADEOFF_COLORS,55986bf4b2f1,triangular,decreasing,7.0,100.0,40,1337,P_CAR_HYDRANT_COLORS,A green sports car parked next to a red fire hydrant.,{},tradeoff demo,checkable-details,3
