@@ -1,0 +1,41 @@
+Prompt:
+"A small wooden chair placed directly on top of a dining table."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+
+seed = 42.
+
+NONE OF THE RESULTS OUTPUT CHAIR ON TABLE.
+
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** small wooden chair  along side normally with dining table, nice quality.
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are blurry, we can see just very simple stool and wired another shape of wooden.
+**Increasing range(1.0,2.0) Schedules:** all the results very blurry - one simple stool.
+**average-constant = 1.5**: very similar to the decreasing schedules. 
+**max-constant = 2.0** very similar to the decreasing schedules. 
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** Very similar to the baseline CFG = 7.5.
+**Increasing range(1.0,12.0) Sachedules:**  middle versions of the objects, the stool trying to complete to chair.
+**average-constant = 5.5**: very similar to the baseline CFG = 7.5,
+**max-constant = 12.0** similar to the baseline CFG = 7.5 
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** The table and the chair become to one distorted wired shape.
+**Increasing range(7.0,50.0) Schedules:**  results very similar to the Baseline CFG = 7.5, just with actual another face not the same, beside the xponent that become same face but distorted eyes.
+**average-constant = 28.5**: similar to average-constant = 5.5, just more sharp, and other stuff on the table.
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0),.
+
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** very unphotorealistic, and distorted image, we see wired shape of chair or table, with lam above it that in the linear schedule the lam become to Floating backrest of the chair .
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with drops sharpness in The image that can get distorted.
+**average-constant = 53.5**: Its could remind the previous max-constant = 50.0.
+**max-constant = 100.0** Very distorted result, remind the Decreasing range(7.0,100.0), just the lam become to duck-shape.
+

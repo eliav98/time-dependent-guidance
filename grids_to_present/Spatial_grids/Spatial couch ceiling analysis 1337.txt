@@ -1,0 +1,40 @@
+Prompt:
+"A large, heavy couch suspended completely upside down from a living room ceiling."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+
+seed = 1337.
+
+
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** The image contain nomal couch in normal home-leaving room, but also A sofa hanging from the ceiling like a hammock (Not upside down)
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** result blury, simialr to baseline with diesign but blurry.
+**Increasing range(1.0,2.0) Schedules:** all the results very distorted in the ceiling, but the leavingroom look ok. 
+**average-constant = 1.5**: very similar to the decreasing schedules,  
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** similar to the baseline CFG = 7.5, more sharpness..
+**Increasing range(1.0,12.0) Sachedules:**  less distorted but still the shape of the hammok-couch wire and not organized.
+**average-constant = 5.5**: very similar to the Decreasing range(1.0,12.0),
+**max-constant = 12.0** similar to the Decreasing range(1.0,12.0), with oone artiface on the car,.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** Results become less photorealstic, More 90s brown style.
+**Increasing range(7.0,50.0) Schedules:**  results very similar to the Baseline CFG = 7.5, just more sharp and more sunny-lightning, and in linear and traingular the couch look more upside-down than the baseline.
+**average-constant = 28.5**: Nice result, remind the average-constant = 5.5, but more sharp.
+**max-constant = 50.0** Image become very unphotorealistic, very painty, orange colors for the couchs.
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Very distorted, we can see far-shape wired couch from the ceiling (as hammock) , and wired shapes of leavingroom all red and black.
+**Increasing range(7.0,100.0) Schedules:**  RESULTS simialr to baseline but we can see more attemping of up-side the couch, the image look sharp.
+**average-constant = 53.5**: very similar to the **max-constant = 50.0**.
+**max-constant = 100.0**  Very similar to Decreasing range(7.0,100.0).
+
+

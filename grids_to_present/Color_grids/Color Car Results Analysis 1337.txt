@@ -1,0 +1,38 @@
+Prompt:
+"A green sports car parked next to a red fire hydrant."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+seed = 1337.
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** Nice result of Green sport Car next to fine looking red fire hydrant, The car not Sport but look fancy old-times car,
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are bit blurry but the objects look ok, the can just dont sport, and the hydrant very small.
+**Increasing range(1.0,2.0) Schedules:** all the results very  blurry - in both exponent and linear we see artifacts of the shape of the car andwe cant see hydrant, and the triangular we see same hydarn as the decreasing(1.0,2.0).
+**average-constant = 1.5**: very similar to the decreasing schedules.
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** results nice - its like zoom in to the car so we can completley see it, but nice design and look sport, and also the hydrant no bad.
+**Increasing range(1.0,12.0) Sachedules:**  Tactually look similar to the previous range(1.0,2.0) of the ** decreasing ** schedules.
+**average-constant = 5.5**: very similar to the baseline CFG = 7.5,..
+**max-constant = 12.0** similar to the decreasing range(1.0, 12.0).
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** All the results distorted, wired 2 unphotorealistic greenish cars, and very abstract small hydrant.background distorted to black in the middle and red in the sides..
+**Increasing range(7.0,50.0) Schedules:**  Nice results, similar to the baseline but more sharp, and in the linear we got actualy "Fire" text on the hydarn.
+**average-constant = 28.5**: wired results, of two cars above each other, greenish, and one is zoom in and cutted, the hydarn look red and good.
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0).
+
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Rvery wired result of silver small hydrant and two square greenish objects that we can see the start of the steering wheel  in the bottom wired greenish object.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with drops of water on the image for all shecudles compare to the last range of each .
+**average-constant = 53.5**: simialr to previous max-constant = 50.0, but the bottom car look more sport
+**max-constant = 100.0** Very distorted result, we can see just abstract shapes of the car with wired red-light (as police) in the roof, and also the hydrant more look like beach-shower shape.
+
+

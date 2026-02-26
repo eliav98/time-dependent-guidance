@@ -1,0 +1,38 @@
+Prompt:
+"A man wearing a bright purple beanie and a neon orange winter jacket."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+seed = 42.
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** sharp result but mixing colors of man wearing orange beanie and purple jacket - closed, with another open glow orange-pink winter jacket. 
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are blurry split orange on the background but with the shape of bulrr man, both the beanie and the jacket orange blurry, (we can see bit purple  blurry in the image ), beside the linear that the shape of the face distorted.
+**Increasing range(1.0,2.0) Schedules:** all the results very blurry - the shape of the man very abstract, and look wired.
+**average-constant = 1.5**: very similar to the decreasing schedules, with the shape of the face distorted. 
+**max-constant = 2.0** very similar to the decreasing schedules. with the shape of the face distorted, and less blurry- orange and more purple.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** Very similar to the baseline CFG = 7.5.
+**Increasing range(1.0,12.0) Sachedules:**  The exponent very blurry/distorted like the previous range(1.0,2.0), the linear and traingular look better.
+**average-constant = 5.5**: very similar to the baseline CFG = 7.5,
+**max-constant = 12.0** similar to the baseline CFG = 7.5 but the eyes got bit distorted.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** All the results unphotorealstic, with wired color mixing, we got purple on the lips and the beanie become roange yellow and bit purple, the jacket is orange with purple hat.
+**Increasing range(7.0,50.0) Schedules:**  results very similar to the Baseline CFG = 7.5, just with actual another face not the same, beside the xponent that become same face but distorted eyes.
+**average-constant = 28.5**: unphotorealstic, look wired, but no wired mixing colors, just confuse, we gotorange beanie and the jacket is design ok of both purple and orange.
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0), jusr face become more purple.
+
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** we can see man with jacket with beanie all red beside bit wired yellow on it, but the guy face covered as a thief.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with drops of water on the image for all shecudles compare to the last range of each one. The image are more distorted colors.
+**average-constant = 53.5**: Its could remind the previous .average-constant = 28.5 but with much mixing colors, like purplel lips, and very wired beanie orange pink, and jacket wred orange purple.
+**max-constant = 100.0** Very distorted result, we can see just abstract shapes of the car with wired red-light (as police) in the roof, and also the hydrant more look like beach-shower shape.
+
+

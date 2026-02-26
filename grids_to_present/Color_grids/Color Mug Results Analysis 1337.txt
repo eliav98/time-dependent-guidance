@@ -1,0 +1,42 @@
+Prompt:
+"A solid yellow coffee mug resting on a bright blue book."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+
+seed = 1337.
+
+Results per column:
+
+**Column 1:**
+**baseline CFG = 7.5:** Result with 2 cups one bright blue and one yellow with yellow bottom, 3 books, one open yellow papers but blue cover, and 2 small bright blue on each other.
+
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are very wired, very blurry, and we can see like distorted objects of books spliting with cup and jus, all blue with whie and black, and bright brown background.
+**Increasing range(1.0,2.0) Schedules:** results simialr to the Decreasing range(1.0,2.0) but with the shapes even less clear.
+**average-constant = 1.5**: very similar to the decreasing schedules.
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** unphotorealistic results, 2 cups like the baseline, and two books, one with yellow papers and blue cover like the baseline. in the linear we observe that the bottom of the cup becomt to wired yellow book.
+**Increasing range(1.0,12.0) Sachedules:**  Distorted! the exponent very similar to his previous schedules(1.0, 2.0), but the shapes more clearly, and in special in the linear an dtriangular we can see jug and cup both bright blue and open book with yellow papers, but very distorted. 
+**average-constant = 5.5**: very similar to the decreasing range(1.0, 12.0)
+**max-constant = 12.0** similar to the decreasing range(1.0, 12.0), the bottom of the cup become to wired yellow book.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** All the results distorted, wired we can see the design of the previous Decreasing range(1.0,12.0) Schedules, but the bright blue book become wired bright blue shpaes, and the yellow background glow
+**Increasing range(7.0,50.0) Schedules:**  Nice results, similar to the baseline.
+**average-constant = 28.5**: similar to the Decreasing range(7.0,50.0). but the wired bright blue shapes become to plant and also for anther cyan shpae its become bottle.
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0).
+
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** very wired result of very glow yellow background, and wired cyan shapes, we got black mug, with abstract deleted-partialy shpae of White pixel pitcher pours into the mug. 
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0).
+**average-constant = 53.5**: simialr to previous max-constant = 50.0, mixed more colors bit.
+**max-constant = 100.0** Very distorted result, similar to the Decreasing range(7.0,100.0) .
+
+

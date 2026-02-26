@@ -1,0 +1,40 @@
+Prompt:
+"A large, heavy couch suspended completely upside down from a living room ceiling."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+
+seed = 42.
+
+NONE OF THE RESULTS ACTUALLY OUTPUT UP-SIDE DOWN COUCH
+
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** The image contain normal couch in normal home-leaving room, but also A mattress on the ceiling, who try to be the couch apperently.
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** result blury, simialr to baseline with diesign but blurry.
+**Increasing range(1.0,2.0) Schedules:** all the results very distorted in the ceiling, but the leavingroom look ok. 
+**average-constant = 1.5**: very similar to the decreasing schedules,  
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** similar to the baseline CFG = 7.5, more sharpness..
+**Increasing range(1.0,12.0) Sachedules:**  less distorted but still the shape of the hammok-couch wire and not organized.
+**average-constant = 5.5**: very similar to the Decreasing range(1.0,12.0),
+**max-constant = 12.0** similar to the Decreasing range(1.0,12.0), with oone artiface on the car,.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** Results become less photorealstic, More 90s brown style. the mattress become wired.
+**Increasing range(7.0,50.0) Schedules:**  results very similar to the Baseline CFG = 7.5, just more sharp and more sunny-lightning, and in linear and traingular the couch look more upside-down than the baseline.
+**average-constant = 28.5**: Nice result, very similar to the decreasing schedules.
+**max-constant = 50.0** Very similar to Decreasing range(7.0,50.0).
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Very unphotorealistic and painty, the shape on the ceiling become wired and dont remind sofa at all.
+**Increasing range(7.0,100.0) Schedules:**  RESULTS simialr to baseline but we can see more attemping of up-side the couch, the image look sharp.
+**average-constant = 53.5**: very similar to the *average-constant = 28.5* just more sharp, and the shape in the ceiling become more simialr tosometihng in the direction of couch.
+**max-constant = 100.0**  Very similar to Decreasing range(7.0,100.0).
+
+

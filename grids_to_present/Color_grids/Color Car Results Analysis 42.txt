@@ -1,0 +1,38 @@
+Prompt:
+"A green sports car parked next to a red fire hydrant."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+seed = 42.
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** Nice result of Green Car next to fine looking red fire hydrant, The car not Sport but look fancy old-times car,
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are blurry but the objects similar to the baseline CFG = 7.5, but distorted - the car is not look fancy, and the windshield distorted, also the red fire hydrant not finshed creat and distorted.
+**Increasing range(1.0,2.0) Schedules:** all the results very distorted and blurry - we see artifacts of the shape of the car, and the red fire hydrant also distorted.
+**average-constant = 1.5**: very similar to the decreasing schedules.
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** good results - similar to the baseline CFG = 7.5, but better result because the car look more soptrivic.
+**Increasing range(1.0,12.0) Sachedules:**  The exponent very blurry/distorted like the previous range(1.0,2.0), the linear and traingular look better and actually look similar to the previous range(1.0,2.0) of the ** decreasing ** schedules.
+**average-constant = 5.5**: very similar to the baseline CFG = 7.5, we can just observe a bit blurry/distorted in the background building..
+**max-constant = 12.0** similar to the baseline CFG = 7.5 but with more spotivic car and the hydrant got bit distorted.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** All the results distorted, very similar to the average-constant = 28.5.
+**Increasing range(7.0,50.0) Schedules:**  Nice results, for the hydrant, but in the car we start see distorted,  in the the windshield that just half filled , and in the triangular and linear we actually got bit distorted also in Vehicle hood amd the car become very unphotorealistic..
+**average-constant = 28.5**: Unphotorealistic result, lot of distorted we can see the over-reacting trying of sharpness that make the car and the hydrant become distorted.
+**max-constant = 50.0** similar to the baseline CFG = Small chnages but similar to the average-constant = 28.5 result.
+
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Results similar to the max-constant = 100. with very small changes.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with drops of water on the image for all shecudles compare to the last range of each one.
+**average-constant = 53.5**: similar to average-constant = 28.5, just with the tree in the background change to come climbing plant like Vine.
+**max-constant = 100.0** Very distorted result, we can see just abstract shapes of the car with wired red-light (as police) in the roof, and also the hydrant more look like beach-shower shape.
+
+

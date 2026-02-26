@@ -1,0 +1,42 @@
+Prompt:
+"A man wearing a bright purple beanie and a neon orange winter jacket."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+
+seed = 1337.
+
+Results per column:
+
+**Column 1:**
+**baseline CFG = 7.5:** Result with man with closed eyem and both jacket and beanie purple beside the jacket slightly orange.
+
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are very wired, very blurry, and we can see like distorted object of the shape. mixed colors.
+**Increasing range(1.0,2.0) Schedules:** results remind the Decreasing range(1.0,2.0) but with the shapes more clear, we can see Eyes, mustache and beard, but distorted.
+**average-constant = 1.5**: very similar to the increasing schedules.
+**max-constant = 2.0** very similar to the increasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** very similar to the baseline just with the eyes open..
+**Increasing range(1.0,12.0) Sachedules:**  Distorted! the exponent very similar to his previous schedules(1.0, 2.0), but the shapes more clearly, and in special in the triangular we got more clrealy shpae of the baseline guy, with sunclasses, and very purple glow colors. 
+**average-constant = 5.5**: very similar to the baseline.
+**max-constant = 12.0** similar to the decreasing range(1.0, 12.0).
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** All the results distorted in the eyes, wired we can see the design of the previous Decreasing range(1.0,12.0) Schedules, but the unphotorealistice sharp passes in the colors.
+**Increasing range(7.0,50.0) Schedules:**  results similar to the baseline. beside mustache and beard in the linear and in the traingular we got actually another guy, change its personality.
+**average-constant = 28.5**: similar to the Decreasing range(7.0,50.0). but without beard.
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0), but more distorted.
+
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** very wired result of very glow cyan eyes, we can obser shpae of man with beanie, very red background and the jacket red-black.. 
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), with some distorted pixels.
+**average-constant = 53.5**: simialr to previous max-constant = 50.0, mixed more colors bit, look more painty.
+**max-constant = 100.0** Very distorted result, similar to the Decreasing range(7.0,100.0) .
+
+

@@ -1,0 +1,40 @@
+Prompt:
+"A modern sports car parked perfectly balancing on the pitched roof of a suburban house."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+seed = 42.
+
+NONE OF THE RESULTS GET CAR ON ROOF.
+
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** we got gray sport car park in the yard of saburban house. nice quality.
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** result very blurry, we cab see the image-struture as the baseline but blurry.
+**Increasing range(1.0,2.0) Schedules:** result very distorted and blurry, we cab see the image-struture as the baseline but slightly different and blurry.
+**average-constant = 1.5**: result very blurry, we cab see the image-struture as the baseline but slightly different and blurry.  
+**max-constant = 2.0** result very blurry, we cab see the image-struture as the baseline but slightly different and blurry.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** Very similar to the baseline, more sharp,
+**Increasing range(1.0,12.0) Sachedules:**  While in triangular and linear we can see clearly the shape and the image become more clear, in the exponentional very distorted.
+**average-constant = 5.5**: very similar to the Decreasing range(1.0,12.0),
+**max-constant = 12.0** similar to the Decreasing range(1.0,12.0).
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** Results become less photorealstic, more HD-vision, car become more sport like lumborgini style and orange color.
+**Increasing range(7.0,50.0) Schedules:**  results very similar to the Baseline CFG = 7.5, more sharp a bit.
+**average-constant = 28.5**: similar to the Decreasing range(7.0,50.0)
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0), Just the lamborgini car become more silver .
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Very distorted, we can see wheel as part of far-shape of car and also in triangular the wheel distorted.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with drops of light dots, who could look more sharp but overreacting,
+**average-constant = 53.5**: similar to previous average-constant = 28.5 , more glowing.
+**max-constant = 100.0** distorted version of previous max-constant = 50.0, abstract and general shpae of the car, colored mixes.
+
+

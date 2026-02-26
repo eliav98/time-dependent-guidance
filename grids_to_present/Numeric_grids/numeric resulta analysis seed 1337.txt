@@ -1,0 +1,58 @@
+Prompt: 
+"masterpiece, best quality, 3 red apples on a wooden table, studio lighting, sharp focus"
+seed = 1337.
+Schedules: baseline, cosine, exponentional, linear, sigmoid.
+Results per column:
+**Column 1:**
+**baseline CFG = 2:** blurry image with 5 apples in plate and 3 half apples and with , also we have on the table Pitcher and bottle.
+**Decreasing range(1.0,2.0) Schedules:** all the results quite similar to the baseline CFG = 2.
+**Increasing range(1.0,2.0) Schedules:** Schedules results similar each other and blurry, but differnt from the baseline, because they got just 1 apple and 1 half apple without plate, and with pitcher and glass rather than the bottle..
+
+Column 2:
+**baseline CFG = 12:** we observe nice result of 3 apples and half 1 apple on the table, background bit blurry.
+**Decreasing range(1.0,12.0) Schedules:** nice results - quite similar to the baseline CFG = 12.
+**Increasing range(1.0,12.0) Schedules:**  The exponent and sigmoid very blurry and similar to their samller range result, And the linear and cosine we can see the begining of bit sharpness.
+
+Column 3:
+**baseline CFG = 50:** we can find 5 red apples glowing with mixture colors, that table very shiny the background look like big green sun blurry.
+**Decreasing range(7.0,50.0) Schedules:** All the results contain red apples with also the mixture colors and the green-sun background very similar to the baseline CFG = 50, besjde the exponent who start to get rid of this wired mixture and less shiny.
+**Increasing range(7.0,50.0) Schedules:**  all the results similar to baseline CFG = 12 (Note CFG = 12 not 50)! , but more distorted ub tge background and tha apples blurries bit.
+
+Column 4:
+**baseline CFG = 100:** distorted very artifacty and non-quality image, we can see 1 distorted shape of big red apple with cyan in the middle of it and two wired (mixture colors) vertical lines crossing the image around it's 0.25 and 0.75 of the image width..
+**Decreasing range(7.0,100.0) Schedules:** Results similar to the baseline CFG = 100, also 1 distorted shape of big apple with cyan , in the exponent the shap less distorted and in the kinear the shpae become between apple and wine glass.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous decreasing range, But with much more drops of water on the image for all shecudles compare to the last range of each one.
+
+
+
+
+Prompt: 
+"masterpiece, best quality, 5 ceramic vases on a minimalist shelf, distinct shapes, clean shadows"
+seed = 1337.
+Schedules: baseline, cosine, exponentional, linear, sigmoid.
+Results per column:
+**Column 1:**
+**baseline CFG = 2:** 9 vases, we can see the shpae of the structure of the shlef holding the vases, 2 of the vases look incomlpleted.
+**Decreasing range(1.0,2.0) Schedules:** all the results quite similar to the baseline CFG = 2, in the exponentwe got that 2 of the vases are more blurry.
+**Increasing range(1.0,2.0) Schedules:** Schedules results similar each other, but differnt from the baseline, 4 vases attemptsm but look giant vases, and wired shape (look like two kinds of vases mixed) 
+
+Column 2:
+**baseline CFG = 12:** nice quality result of 8 vases, sitting nice on the shlef structure, all white vases. (Back shelf) 
+**Decreasing range(1.0,12.0) Schedules:** good results - quite similar to the baseline CFG = 12.
+**Increasing range(1.0,12.0) Schedules:**  Results are nice, similar to the previous increasing range beside the cosine and linear more succed to create the shapes of the vases (and not the wired shape like the previous increasing range). also the linear succed to create one flower on on of the vases.
+
+Column 3:
+**baseline CFG = 50:** distorted colors, 7 vases, background split to 3 colors. 
+**Decreasing range(7.0,50.0) Schedules:** Distorted and very similar to the baseline CFG = 50, beside the cosine that total have 8 vases, that got more 1 vase attemt (and got it very tine one).
+**Increasing range(7.0,50.0) Schedules:**  all the results similar of 8 nice vases, the background is wired brownie blackie.
+
+Column 4:
+**baseline CFG = 100:**distorted, very artifacty and non-quality image, we can observe 5 attemps of painting vases but maybe just but they are in the sides of the image, and in the center we got brown rectangle.
+**Decreasing range(7.0,100.0) Schedules:** Results similar to the baseline CFG = 100,  beside some colors that may added differntly to the distorted of the image.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range, But with much more distorted specially in the background. also beside the linear they got 9 vases compare to 8 in previous smaller increasing range
+
+
+
+
+
+

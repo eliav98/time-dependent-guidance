@@ -1,0 +1,56 @@
+Prompt: 
+"masterpiece, best quality, 3 red apples on a wooden table, studio lighting, sharp focus"
+seed = 42.
+Schedules: baseline, cosine, exponentional, linear, sigmoid.
+Results per column:
+**Column 1:**
+**baseline CFG = 2:** blurry image with 5 apples, and 4 of them with brown (sam color of table) artifact connect them
+**Decreasing range(1.0,2.0) Schedules:** all the results quite similar to the baseline CFG = 2.
+**Increasing range(1.0,2.0) Schedules:** Schedules results similar each other and blurry, but differnt from the baseline, while the image look from above in the schedules, for the baseline its look bit from the front.
+
+Column 2:
+**baseline CFG = 12:** we observe fine and sharp result of 5 apples on the table.
+**Decreasing range(1.0,12.0) Schedules:** good results - quite similar to the baseline CFG = 12.
+**Increasing range(1.0,12.0) Schedules:**  The exponent and sigmoid very blurry and similar to thier samller range result, And the linear and cosine we can see the begining of bit sharpness.
+
+Column 3:
+**baseline CFG = 50:** we can find 4 red apples glow with cyan (also their shadow), that table very shiny the background look like big sun blurry.
+**Decreasing range(7.0,50.0) Schedules:** All the results contain red apples with also cyan , in the cosine (4 apples) and sigmoid (4 apples) very similar to the baseline CFG = 50, in both linear ( 5 apples) and exponent (4 apples) we got the background much less blury, and while the cyan start disconnect from the apples in the linear in the exponentthe cyan disconnect and been flatten in the table.
+**Increasing range(7.0,50.0) Schedules:**  all the results similar nice 5 apples  in wooden table, but with drops of water on the background, that just with the exponent schedule they almost disapear.
+
+Column 4:
+**baseline CFG = 100:** distorted very artifacty and non-quality image, we can see 3 red apples each have liitle white background (as logo),ann all the image become very "redi", general background and table with red.
+**Decreasing range(7.0,100.0) Schedules:** Results similar to the baseline CFG = 100, also three apples with white background (as logo) beside the exponent that the white look like more some light on the apples, also for all shecudlesthe background less blurry from the background
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous decreasing range, But with much more drops of water on the image for all shecudles compare to the last range of each one.
+
+
+Prompt: 
+"masterpiece, best quality, 5 ceramic vases on a minimalist shelf, distinct shapes, clean shadows"
+seed = 42.
+Schedules: baseline, cosine, exponentional, linear, sigmoid.
+Results per column:
+**Column 1:**
+**baseline CFG = 2:** 6 vases, pure colors and very gray image, white-gray background, 3 empty and 3 with flowers but very colorless. Also in the cenr=ter of the image we have blurry overlapping of 2 vases.
+**Decreasing range(1.0,2.0) Schedules:** all the results quite similar to the baseline CFG = 2, in the exponentwe got that 2 of the backline vases almost delete.
+**Increasing range(1.0,2.0) Schedules:** Schedules results similar each other, but differnt from the baseline, just 4 vases and beside the linear that got one tiny flower we dont see any flowers here.
+
+Column 2:
+**baseline CFG = 12:** nice quality result of 7 vases, 3 of them with pampas grass 5 white vases, one black and one brown shinei..
+**Decreasing range(1.0,12.0) Schedules:** good results - quite similar to the baseline CFG = 12.
+**Increasing range(1.0,12.0) Schedules:**  The exponent and sigmoid with 4 vases, and just one attemp of pampas grass, very similar to their samller range result, And the linear and cosine we got 6 vases and more attemps of the pampas grass, and in the cosine we got distorted with the pampas grass, that fly in the air like been cutting from it's below vase.
+
+Column 3:
+**baseline CFG = 50:** we can find 6 vases, very distorted colors, all vases empty. 
+**Decreasing range(7.0,50.0) Schedules:** Distorted and very similar to the baseline CFG = 50, beside linear and exponent that get forward to 5 vases.
+**Increasing range(7.0,50.0) Schedules:**  all the results similar nice 7 vases with blurry background and pampas grass, besude the sigmoid that got 6 vases and distorted pampas grass.
+
+Column 4:
+**baseline CFG = 100:**distorted, very artifacty and non-quality image, we can observe 5 attemps of painting vases but maybe just 2 or 3 fo them got their shpae but still all coloros distorted.
+**Decreasing range(7.0,100.0) Schedules:** Results similar to the baseline CFG = 100,  beside the exponent that look like attemping of 8 vases.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range, But with much more distorted specially in the background but also in the pampas grass we can observe distorted,
+
+
+
+
+
+

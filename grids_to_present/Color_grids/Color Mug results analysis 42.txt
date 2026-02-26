@@ -1,0 +1,37 @@
+Prompt:
+"A solid yellow coffee mug resting on a bright blue book."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+seed = 42.
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** Nice result of coffe filled mug yellow cup  with a yellow and bit blue bottom for the cup, resting on distorted book (look nice but in the middle of it split like notebook and distorte). The background nice flower design colored blue and yellow.
+
+ Column 2:
+**Decreasing range(1.0,2.0) Schedules:** all the results are very wired, very blurry, and we can see lot of small shapes of Cups and jugs colored with blue or yellow.
+**Increasing range(1.0,2.0) Schedules:** Very similar to the decreasing, just bit more blue for the background colors.
+**average-constant = 1.5**: very similar to the decreasing schedules.
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** good result - of completely yellow mug with bottom coffe filled, the bottom on bright blue book look like diary. The background become more yellow comapre to previous range for decreasing.
+**Increasing range(1.0,12.0) Sachedules:**  The exponent very similar to previous range(1.0,2.0), the linear and traingular actually look similar to the previous range(1.0,2.0) of the ** decreasing ** schedules.
+**average-constant = 5.5**: similar to the baseline CFG = 7.5, but we cab see the progrees of deleting the split that we got there, but not completly..
+**max-constant = 12.0** similar to the baseline CFG = 7.5 but with The book is completed and without distorted as were in the baseline, even so the book much less photorealstic design.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** Unphotorealistic result, the book have the notebook distorted, bit more yellow in general in the image and also more glow yellow of the cup, and few pixels of the cup become bright blue like the book,
+**Increasing range(7.0,50.0) Schedules:**  Results similar to the previous decreasing range.
+**average-constant = 28.5**: Unphotorealistic result, the book have the notebook distorted, But good separation of the cup and the book, and actualy the cup is on the book without bottom.
+**max-constant = Unphotorealistic result, the book have the notebook distorted, bit more yellow in general in the image and also more glow yellow of the cup, and few pixels of the cup become bright blue like the book, and actualy the cup is on the book without bottom.
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Results similar to the max-constant = 100. with very small changes.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with more mess in the background, colors glow more,.
+**average-constant = 53.5**: wired colors, wired shapes in the background, the cup fill with blue liquid, and get black in the side of cup.
+**max-constant = 100.0** Very distorted result, we can see abstract shape of the book - cyan color, and the cup very distorted and mixture colors of yellow blue and cyan.
+
+

@@ -1,0 +1,37 @@
+Prompt:
+"A modern sports car parked perfectly balancing on the pitched roof of a suburban house."
+
+Schedules: baseline=7.5, average-constant, max-constant, exponentional, linear, triangular.
+seed = 1337.
+Results per column:
+**Column 1:**
+**baseline CFG = 7.5:** We got indeed blue sport car on somehow roof in the result but below we got un-finished gray car.
+
+Column 2:
+**Decreasing range(1.0,2.0) Schedules:** result very distorted, we can obtain just two shapes of cars, one on some-shape of structure.
+**Increasing range(1.0,2.0) Schedules:** all the results very distorted - general shpae and colors splushing.
+**average-constant = 1.5**: very similar to the decreasing schedules,  
+**max-constant = 2.0** very similar to the decreasing schedules.
+
+
+Column 2:
+**Decreasing range(1.0,12.0) Schedules:** Nice result where we see two cars similar to the baseline CFG = 7.5, but cars finished well and indeed blue one on the roof.
+**Increasing range(1.0,12.0) Sachedules:**  While in triangular we can see clearly the shapes of two cars, (even the one on roof distorted) other schedule very distorted.
+**average-constant = 5.5**: very similar to the Decreasing range(1.0,12.0),
+**max-constant = 12.0** similar to the Decreasing range(1.0,12.0), with oone artiface on the car,.
+
+
+Column 3:
+**Decreasing range(7.0,50.0) Schedules:** Results become less photorealstic, more painty style, we can see actual car on somehow roof, and in linear and exponentional we got another car below, the image become sunset style.
+**Increasing range(7.0,50.0) Schedules:**  results very similar to the Baseline CFG = 7.5, just in the linear and triangular the below-car completed and look better than the baseline.
+**average-constant = 28.5**: Nice result, remind the max-constant = 12.0, but with the cars more pararel to each other, look bit less photorealisti
+**max-constant = 50.0** similar to the Decreasing range(7.0,50.0), that the below car become very wired half black half white.
+
+
+Column 4:
+**Decreasing range(7.0,100.0) Schedules:** Very distorted, we can see far-shape of car, and wired shapes other areas of the image.
+**Increasing range(7.0,100.0) Schedules:**  Results similar to the previous increasing range(7.0, 50.0), But with drops of water on the image for all shecudles compare to the last range of each one. The image are more distorted colors.
+**average-constant = 53.5**: very similar to the decreasing range(7.0,50.0) of triangular.
+**max-constant = 100.0**  Very similar to Decreasing range(7.0,100.0).
+
+
